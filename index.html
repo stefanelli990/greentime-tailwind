@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Green Time</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="bg-white fixed top-0 py-2 left-0 right-0 shadow-md z-10 3xl:py-0">
+      <div class="max-w-full mx-auto px-6 flex justify-between items-center">
+      <a href="#">
+        <img class="h-[50px]" src="images/logo-green.png" alt="">
+      </a>
+      <div class="hidden 3xl:flex">
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Über mich</a>
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Naturnahe Gartengestaltung</a>
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Naturnahe Terrassengestaltung</a>
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Gartenkurse</a>
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Workshop Floristik</a>
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Garten Design Studio mit Show-Garten</a>
+        <a class="p-5 hover:bg-slate-100 border-b-2 border-white hover:border-primaryColor hover:text-primaryColor" href="#">Kontakt</a>
+      </div>
+
+      <!-- hamburger icon -->
+      <button id="hamburger-icon" class="flex flex-col justify-center items-center space-y-1.5 z-30 3xl:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#829c79" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/></svg>
+      </button>
+    </div>
+    </nav>
+
+    <!-- hamburger menu -->
+    <div id="hamburger-menu" class="bg-primaryColor h-screen w-full sm:w-[26rem] flex flex-col items-end justify-center text-right space-y-8 p-6 fixed right-0 top-0 bottom-0 translate-x-full duration-500 z-20">
+      <span id="close-hamburger" class="cursor-pointer absolute top-4 right-4 hover:opacity-50">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="white" d="M764.288 214.592L512 466.88L259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512L214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z"/></svg>
+      </span>
+      <a class="text-white hover:text-opacity-50" href="#">Über mich</a>
+      <a class="text-white hover:text-opacity-50" href="#">Naturnahe Gartengestaltung</a>
+      <a class="text-white hover:text-opacity-50" href="#">Naturnahe Terrassengestaltung</a>
+      <a class="text-white hover:text-opacity-50" href="#">Gartenkurse</a>
+      <a class="text-white hover:text-opacity-50" href="#">Workshop Floristik</a>
+      <a class="text-white hover:text-opacity-50" href="#">Garten Design Studio mit Show-Garten</a>
+      <a class="text-white hover:text-opacity-50" href="#">Kontakt</a>
+    </div>
+
+    <!-- hamburger menu overlay -->
+    <div id="hamburger-overlay" class="bg-black fixed top-0 left-0 w-full h-screen duration-500 opacity-0 invisible z-10"></div>
+
+    <!-- hero section -->
+    <section id="hero-section" class="flex justify-center items-center flex-col relative">
+      <img class="h-[15rem] mb-4" src="images/logo-white.png" alt="">
+      <h1 class="text-white text-5xl">Green Time</h1>
+      
+      <!-- chevron icon/animation -->
+      <div id="chevron-down" class="absolute bottom-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="#fff" fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
+      </div>
+      
+    </section>
+
+  <!-- section one -->
+  <section>
+    <div class="section-container text-center">
+      <p>Herzlich Willkommen im Geschäft für Garten-Design am Nadelberg 30 in Basel</p>
+    </div>
+    <div id="first-parallax" class="flex justify-center items-center">
+      <h1 class="text-white text-5xl">Über mich</h1>
+    </div>
+  </section>
+
+  <!-- section two -->
+  <section>
+    <div class="section-container">
+      <p>Als Gartendesignerin gestalte ich mit Green Time Gärten und Terrassen nach dem Vorbild der Natur mit einheimischen Gehölzen und Wildstauden- zur Förderung der Biodiversität in der Stadt und auf dem Land.</p>
+      <br>
+      <p>Meine Ausbildungen zur Gartendesignerin habe ich an diversen Schulen in der Schweiz, in England und in Berlin absolviert.</p>
+    </div>
+    <div id="second-parallax" class="relative flex justify-center items-center h-[400px] bg-center bg-cover bg-repeat" style="background-image: url('/images/45-_DSF7870.jpg')">
+      <div class="absolute h-full w-full bg-black/50"></div>
+      <h1 class="text-white text-5xl z-10">Naturnahe Gartengestaltung</h1>
+    </div>
+  </section>
+
+  
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
